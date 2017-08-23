@@ -1,5 +1,7 @@
 language: go
 go: 
     - 1.7
+    - 1.8.3
 script:
+    - go get -u -t -v github.com/wangduotj/wangduotj
     - go test
