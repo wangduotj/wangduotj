@@ -1,8 +1,18 @@
+sudo: false
 language: go
-go: 
-    - 1.7
-    - 1.8.3
+go:
+  - 1.7
+  - 1.8
+
 before_install:
-  - go get github.com/wangduotj/wangduotj
-script:  
-    - go test
+- export PATH=/home/travis/gopath/bin:$PATH
+
+install:
+- go get ./gmsm/...
+
+script:
+- go test 
+
+
+notifications:
+  email: false
