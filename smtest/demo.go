@@ -2,8 +2,8 @@ package smtest
 
 import (
 	"fmt"
-	"gmsm/sm3"
-	"gmsm/sm4"
+	"github.com/wangduotj/wangduotj/gmsm/sm3"
+	"github.com/wangduotj/wangduotj/gmsm/sm4"
 )
 
 
