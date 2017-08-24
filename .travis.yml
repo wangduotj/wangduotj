@@ -12,7 +12,7 @@ install:
 - go get github.com/wangduotj/gmsm
 
 script:
-- go test ./smtest/..
+- go test 
 
 notifications:
   email: false
