@@ -1,18 +1,18 @@
 sudo: false
-language: go
+language: 
+  - go
 go:
-  - 1.7
-  - 1.8
+  - 1.8.3
 
 before_install:
 - export PATH=/home/travis/gopath/bin:$PATH
 
 install:
-- go get ./gmsm/...
+- go get -v github.com/golang/lint/golint
+- go get github.com/wangduotj/gmsm/gmssl
 
 script:
-- go test 
-
+- go test ./smtest/..
 
 notifications:
   email: false
