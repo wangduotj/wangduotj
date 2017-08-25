@@ -1,4 +1,4 @@
-package gmsm
+package sm4
 
 import (
 	"fmt"
