@@ -6,7 +6,7 @@ go:
 
 install:
   - go get -v github.com/golang/lint/golint
-  - go get -d -t -v ./...
+  - go get -d -t -v $HOME/gopath/src/github.com/wangduotj/wangduotj
   - go build -v ./...
 
 script:
