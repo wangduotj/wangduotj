@@ -1,4 +1,4 @@
-package gmsm
+package sm3
 
 import (
 	"encoding/binary"
