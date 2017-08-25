@@ -2,8 +2,7 @@ package gmsm
 
 import (
 	"fmt"
-	"github.com/wangduotj/wangduotj/sm3"
-	"github.com/wangduotj/wangduotj/sm4"
+	"github.com/tjfoc/gmsm"
 )
 
 
