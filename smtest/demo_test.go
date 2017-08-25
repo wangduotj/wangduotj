@@ -1,4 +1,4 @@
-package gmsm
+package smtest
 
 import (
 	"testing"
