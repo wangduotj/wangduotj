@@ -6,7 +6,7 @@ go:
 
 install:
   - go get -v github.com/golang/lint/golint
-  - go get github.com/wangduotj/gmsm/smtest
+  - go get ./gmsm/smtest
   - go get -d -t -v ./...
   - go build -v ./...
 
