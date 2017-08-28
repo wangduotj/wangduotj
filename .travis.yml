@@ -5,9 +5,9 @@ go:
   - 1.8.3
 
 before_install:
-  - git rm -r --cached .
-  - git add .
-  - git commit -m 'update .gitignore'
+  #- git rm -r --cached .
+  #- git add .
+  #- git commit -m 'update .gitignore'
 install:
   - go get -v github.com/golang/lint/golint
   - go get -d -t -v ./...
